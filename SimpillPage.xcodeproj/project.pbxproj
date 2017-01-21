@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		938228611CBEBF1D00C7E843 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938228601CBEBF1D00C7E843 /* AppDelegate.swift */; };
-		938228631CBEBF1D00C7E843 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938228621CBEBF1D00C7E843 /* ViewController.swift */; };
+		938228631CBEBF1D00C7E843 /* PillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938228621CBEBF1D00C7E843 /* PillViewController.swift */; };
 		938228661CBEBF1D00C7E843 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938228641CBEBF1D00C7E843 /* Main.storyboard */; };
 		938228681CBEBF1D00C7E843 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 938228671CBEBF1D00C7E843 /* Assets.xcassets */; };
 		9382286B1CBEBF1D00C7E843 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938228691CBEBF1D00C7E843 /* LaunchScreen.storyboard */; };
 		938228761CBEBF1D00C7E843 /* SimpillPageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938228751CBEBF1D00C7E843 /* SimpillPageTests.swift */; };
+		938228891CC6A0A600C7E843 /* Pill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938228881CC6A0A600C7E843 /* Pill.swift */; };
+		9382288B1CC6A2D900C7E843 /* PillTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9382288A1CC6A2D900C7E843 /* PillTableViewCell.swift */; };
+		9382288D1CC7F20B00C7E843 /* PillTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9382288C1CC7F20B00C7E843 /* PillTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +31,7 @@
 /* Begin PBXFileReference section */
 		9382285D1CBEBF1D00C7E843 /* SimpillPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpillPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		938228601CBEBF1D00C7E843 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		938228621CBEBF1D00C7E843 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		938228621CBEBF1D00C7E843 /* PillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillViewController.swift; sourceTree = "<group>"; };
 		938228651CBEBF1D00C7E843 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		938228671CBEBF1D00C7E843 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9382286A1CBEBF1D00C7E843 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +39,9 @@
 		938228711CBEBF1D00C7E843 /* SimpillPageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpillPageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		938228751CBEBF1D00C7E843 /* SimpillPageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpillPageTests.swift; sourceTree = "<group>"; };
 		938228771CBEBF1D00C7E843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		938228881CC6A0A600C7E843 /* Pill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pill.swift; path = ../Pill.swift; sourceTree = "<group>"; };
+		9382288A1CC6A2D900C7E843 /* PillTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PillTableViewCell.swift; sourceTree = "<group>"; };
+		9382288C1CC7F20B00C7E843 /* PillTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PillTableViewController.swift; path = ../PillTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +84,11 @@
 			isa = PBXGroup;
 			children = (
 				938228601CBEBF1D00C7E843 /* AppDelegate.swift */,
-				938228621CBEBF1D00C7E843 /* ViewController.swift */,
+				938228621CBEBF1D00C7E843 /* PillViewController.swift */,
 				938228641CBEBF1D00C7E843 /* Main.storyboard */,
+				9382288A1CC6A2D900C7E843 /* PillTableViewCell.swift */,
+				9382288C1CC7F20B00C7E843 /* PillTableViewController.swift */,
+				938228881CC6A0A600C7E843 /* Pill.swift */,
 				938228671CBEBF1D00C7E843 /* Assets.xcassets */,
 				938228691CBEBF1D00C7E843 /* LaunchScreen.storyboard */,
 				9382286C1CBEBF1D00C7E843 /* Info.plist */,
@@ -146,9 +155,11 @@
 				TargetAttributes = {
 					9382285C1CBEBF1D00C7E843 = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
 					};
 					938228701CBEBF1D00C7E843 = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 9382285C1CBEBF1D00C7E843;
 					};
 				};
@@ -197,8 +208,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				938228631CBEBF1D00C7E843 /* ViewController.swift in Sources */,
+				938228891CC6A0A600C7E843 /* Pill.swift in Sources */,
+				938228631CBEBF1D00C7E843 /* PillViewController.swift in Sources */,
+				9382288B1CC6A2D900C7E843 /* PillTableViewCell.swift in Sources */,
 				938228611CBEBF1D00C7E843 /* AppDelegate.swift in Sources */,
+				9382288D1CC7F20B00C7E843 /* PillTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +345,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.SimpillPage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -342,6 +357,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.SimpillPage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -353,6 +369,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.SimpillPageTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpillPage.app/SimpillPage";
 			};
 			name = Debug;
@@ -365,6 +382,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.SimpillPageTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpillPage.app/SimpillPage";
 			};
 			name = Release;
@@ -388,6 +406,7 @@
 				9382287C1CBEBF1D00C7E843 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9382287D1CBEBF1D00C7E843 /* Build configuration list for PBXNativeTarget "SimpillPageTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +415,7 @@
 				9382287F1CBEBF1D00C7E843 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
